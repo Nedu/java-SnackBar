@@ -18,6 +18,12 @@ public class VendingMachine
     {
         return name;
     }
+
+    /* Getter method to get id */
+    public int getId()
+    {
+        return id;
+    }
     
     /* Setter method to set name */
     public void setName(String name)

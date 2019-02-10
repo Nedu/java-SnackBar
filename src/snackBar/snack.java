@@ -25,6 +25,12 @@ public class Snack
         this.name = name;
     }
 
+    /* Getter method to get name */
+    public String getName()
+    {
+        return name;
+    }
+
     /* Getter method to get quantity */
     public int getQuantity()
     {
@@ -34,7 +40,7 @@ public class Snack
     /* add quantity given quantity */
     public void updateQuantity(int quantity)
     {
-        this.quantity += quantity
+        this.quantity += quantity;
     }
 
     /* buy snack given quantity */
